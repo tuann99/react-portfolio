@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -35,37 +34,61 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Apple Support Advisor",
+    location: "Cupertino, CA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Provided technical support to customers for Apple products.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Clinical Intern",
+    location: "East Lansing, MI",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Administered behavioral health assessments to families",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Research Assistant",
+    location: "East Lansing, MI",
+    description:
+      "Utilized qualitative coding to measure behaviors in study participants.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Graduated from MSU",
+    location: "East Lansing, MI",
+    description:
+      "Received a Bachelor of Science in Computational Neuroscience.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022",
+  },
+  {
+    title: "Graduated from JHU",
+    location: "East Lansing, MI",
+    description:
+      "Received a Master's of Science in Biotechnology.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
+    title: "Research Assistant",
+    location: "East Lansing, MI",
+    description:
+      "Utilized qualitative coding to measure behaviors in study participants.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "The Interface for Metagenomic Analysis and Graphical Examination (IMAGE)",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "On-going project to develop a desktop application that simplifies analysis of metagenomic data.",
+    tags: ["JavaScript", "Python", "HTML", "CSS", "Electron.js"],
     imageUrl: corpcommentImg,
   },
   {
@@ -85,23 +108,16 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Python",
   "HTML",
   "CSS",
   "JavaScript",
+  "Git/GitHub",
+  "Docker",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Tailwind CSS",
   "Framer Motion",
 ] as const;
