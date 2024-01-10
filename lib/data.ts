@@ -98,6 +98,13 @@ export const projectsData = [
     tags: ["Python", "HTML", "CSS", "SQL/MySQL"],
     imageUrl: rmtdevImg,
   },
+  {
+    title: "Other",
+    description:
+      "Other projects coming soon",
+    tags: ["React", "Angular"],
+    imageUrl: imageImg,
+  },
   // {
   //   title: "Word Analytics",
   //   description:
