@@ -85,7 +85,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "The Interface for Metagenomic Analysis and Graphical Examination (IMAGE)",
+    title: "IMAGE",
     description:
       "On-going project to develop a desktop application that simplifies analysis of metagenomic data.",
     tags: ["JavaScript", "Python", "HTML", "CSS", "Electron.js"],
