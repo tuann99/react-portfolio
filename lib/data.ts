@@ -96,7 +96,7 @@ export const projectsData = [
     description:
       "Website that allows users to search for cancer drugs and view their characteristics.",
     tags: ["Python", "HTML", "CSS", "SQL/MySQL"],
-    imageUrl: rmtdevImg,
+    // imageUrl: rmtdevImg,
   },
   // {
   //   title: "Word Analytics",
