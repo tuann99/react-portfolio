@@ -39,15 +39,7 @@ export const experiencesData = [
     description:
       "Provided technical support to customers for Apple products.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021",
-  },
-  {
-    title: "Clinical Intern",
-    location: "East Lansing, MI",
-    description:
-      "Administered behavioral health assessments to families",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
+    date: "04/2021 - 08/2021",
   },
   {
     title: "Research Assistant",
@@ -55,7 +47,15 @@ export const experiencesData = [
     description:
       "Utilized qualitative coding to measure behaviors in study participants.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
+    date: "04/2021 - 12/2022",
+  },
+  {
+    title: "Clinical Intern",
+    location: "East Lansing, MI",
+    description:
+      "Administered behavioral health assessments to families",
+    icon: React.createElement(CgWorkAlt),
+    date: "08/2021 - 05/2022",
   },
   // {
   //   title: "Graduated from MSU",
@@ -79,7 +79,7 @@ export const experiencesData = [
     description:
     "Utilized qualitative coding to measure behaviors in study participants.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - Present",
+    date: "05/2022 - Present",
   },
 ] as const;
 

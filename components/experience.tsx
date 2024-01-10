@@ -37,7 +37,7 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               // date={item.date}
-              date={null}
+              date={item.date}
               icon={item.icon}
               iconStyle={{
                 background:
@@ -45,21 +45,11 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <div>{item.date}</div>
-              <div>
-                <h3 className="font-semibold capitalize">{item.title}</h3>
-                <p className="font-normal !mt-0">{item.location}</p>
-                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                  {item.description}
-                </p>
-              </div>
-            </div>
-              {/* <h3 className="font-semibold capitalize">{item.title}</h3>
+              <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
-              </p> */}
+              </p>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
