@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import imageImg from "@/public/image_app.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -89,7 +89,7 @@ export const projectsData = [
     description:
       "On-going project to develop a desktop application that simplifies analysis of metagenomic data.",
     tags: ["JavaScript", "Python", "HTML", "CSS", "Electron.js"],
-    imageUrl: corpcommentImg,
+    imageUrl: imageImg,
   },
   {
     title: "Cancer Drug Database",
