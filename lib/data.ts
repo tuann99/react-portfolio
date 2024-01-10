@@ -57,27 +57,27 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
-  {
-    title: "Graduated from MSU",
-    location: "East Lansing, MI",
-    description:
-      "Received a Bachelor of Science in Computational Neuroscience.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022",
-  },
-  {
-    title: "Graduated from JHU",
-    location: "East Lansing, MI",
-    description:
-      "Received a Master's of Science in Biotechnology.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  },
+  // {
+  //   title: "Graduated from MSU",
+  //   location: "East Lansing, MI",
+  //   description:
+  //     "Received a Bachelor of Science in Computational Neuroscience.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2022",
+  // },
+  // {
+  //   title: "Graduated from JHU",
+  //   location: "East Lansing, MI",
+  //   description:
+  //     "Received a Master's of Science in Biotechnology.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2023",
+  // },
   {
     title: "Research Assistant",
     location: "East Lansing, MI",
     description:
-      "Utilized qualitative coding to measure behaviors in study participants.",
+    "Utilized qualitative coding to measure behaviors in study participants.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - Present",
   },
@@ -92,19 +92,19 @@ export const projectsData = [
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Cancer Drug Database",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Website that allows users to search for cancer drugs and view their characteristics.",
+    tags: ["Python", "HTML", "CSS", "SQL/MySQL"],
     imageUrl: rmtdevImg,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
 ] as const;
 
 export const skillsData = [

@@ -24,15 +24,11 @@ export default function About() {
         I decided to pursue my passion for programming. I enrolled in a Master's program at Johns 
         Hopkins University, where I learned{" "}
         <span className="font-medium">scripting, web development, and more</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">HTML, CSS, JS and Python, but</span>. 
-        I am also familiar with React.js, Electron.js, and Next.js. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        My favorite part of programming is the problem-solving aspect. I <span className="underline">love</span>{" "}
+        the feeling of finally figuring out a solution to a problem. My core stack is{" "}
+        <span className="font-medium">HTML, CSS, JS and Python, but</span>{" "}
+        I am always learning new technologies. At the moment I am learning React, Electron, and Next.js. 
+        I am currently looking for a full-time position as a software developer.
       </p>
 
       <p>
