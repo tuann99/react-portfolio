@@ -3,7 +3,6 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import imageImg from "@/public/image_app.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -95,7 +94,7 @@ export const projectsData = [
     title: "Cancer Drug Database",
     description:
       "Website that allows users to search for cancer drugs and view their characteristics.",
-    tags: ["Python", "HTML", "CSS", "SQL/MySQL"],
+    tags: ["JavaScript","Python", "HTML", "CSS", "SQL/MySQL"],
     imageUrl: rmtdevImg,
   },
   {
@@ -105,13 +104,6 @@ export const projectsData = [
     tags: ["React", "Angular"],
     imageUrl: imageImg,
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
 ] as const;
 
 export const skillsData = [
