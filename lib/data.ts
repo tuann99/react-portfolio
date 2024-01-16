@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import imageImg from "@/public/image_app.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import dbqImg from "@/public/dbq_site.png";
 
 export const links = [
   {
@@ -95,7 +95,7 @@ export const projectsData = [
     description:
       "Website that allows users to search for cancer drugs and view their characteristics.",
     tags: ["JavaScript","Python", "HTML", "CSS", "SQL/MySQL"],
-    imageUrl: rmtdevImg,
+    imageUrl: dbqImg,
   },
   {
     title: "Other",
