@@ -94,7 +94,7 @@ export const projectsData = [
     title: "Cancer Drug Database",
     description:
       "Website that allows users to search for cancer drugs and view their characteristics.",
-    tags: ["JavaScript","Python", "HTML", "CSS", "SQL/MySQL"],
+    tags: ["Python", "HTML", "CSS", "SQL/MySQL"],
     imageUrl: dbqImg,
   },
   {
